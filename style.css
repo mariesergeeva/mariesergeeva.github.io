@@ -1,0 +1,83 @@
+body {
+    background-color: #fffaf0;
+    color:rgb(140, 130, 130);
+}
+
+h1 {
+    width: 100%;
+    margin: 5px;
+    padding: 15px;
+    font-size: 25pt;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo {
+    border-radius: 5%;
+    width: 30%;
+}
+
+.personal_info {
+    list-style: none;
+}
+
+.personal_info li:nth-child(even) {
+    padding-left: 20px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+td:first-child {
+    width: 80%;
+}
+
+
+th, td {
+    padding: 5px;
+  }
+
+.finished_courses tr:first-of-type{
+    font-weight: 800;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.logo {
+    width: 40px;
+    padding: 10px;
+}
