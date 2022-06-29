@@ -1,1 +1,2 @@
-# student-card
+# mariesergeeva.github.io
+карточка студента
